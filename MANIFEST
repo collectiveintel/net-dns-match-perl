@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Net-DNS-Match.t
+lib/Net/DNS/Match.pm
