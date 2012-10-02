@@ -7,13 +7,14 @@ use lib './lib';
 use Net::DNS::Match;
 use Data::Dumper;
 
-my $addr = 'xyz.yahoo.com';
+my $addr = 'montreal.qc.ca.undernet.org';
 
 my $match = Net::DNS::Match->new();
 $match->add([
-    'test.yahoo.com',
+    'xyz.yahoo.com',
     'google.com',
     'www.facebook.com',
+    'undernet.org',
  ]);
  
  die ::Dumper($match->match($addr));
