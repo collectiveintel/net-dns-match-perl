@@ -150,14 +150,14 @@ Net::DNS::Match - Perl extension for testing domains against another list of dom
   use Data::Dumper;
   my $addr = 'img.yahoo.com';
 
-  my $match = Net::DNS::Match->new();
-  $match->add([
+  my $obj = Net::DNS::Match->new();
+  $obj->add([
       'yahoo.com',
       'google.com',
       'www.facebook.com',
    ]);
  
- die Dumper($match->match($addr));
+ die Dumper($obj->match($addr));
 
 =head1 DESCRIPTION
 
@@ -169,9 +169,9 @@ None by default.
 
 =head1 SEE ALSO
 
-collectiveintel.net
+csirtgadgets.org
 
-github.com/collectiveintel
+github.com/csirtgadgets
 
 =head1 AUTHOR
 
