@@ -169,8 +169,6 @@ None by default.
 
 =head1 SEE ALSO
 
-csirtgadgets.org
-
 github.com/csirtgadgets
 
 =head1 AUTHOR
