@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/csirtgadgets/net-dns-match-perl.png?branch=master)](https://travis-ci.org/csirtgadgets/net-dns-match-perl)
 
 Net-DNS-Match
-=============
+==
 
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
@@ -15,7 +15,7 @@ good idea to provide version information here so that people can
 decide whether fixes for the module are worth downloading.
 
 INSTALLATION
-
+==
 To install this module type the following:
 
    perl Makefile.PL
@@ -24,8 +24,10 @@ To install this module type the following:
    make install
 
 DEPENDENCIES
+==
 
 COPYRIGHT AND LICENCE
+==
 
 Put the correct copyright and licence information here.
 
